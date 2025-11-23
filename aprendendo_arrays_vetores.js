@@ -25,3 +25,4 @@ let atributosPokemons = [
 
 console.log(atributosPokemons[1]) //Acessando os dados do Pikachu.
 console.log("O Squirtle é do sexo: " + atributosPokemons[4][1]) //Acessando o sexo do Squirtle.
+console.log("O nível do Charmander é: " + atributosPokemons[2][2]) //Acessando o nível do Charmander.
