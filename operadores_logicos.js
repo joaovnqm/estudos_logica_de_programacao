@@ -10,7 +10,7 @@ let cidadaniaEuropeia = true
 podeViajar = idadeViajante >= 18 && (possuiVisto == true || cidadaniaEuropeia == true)
 console.log("Pode viajar? " + podeViajar)
 
-//Vamos adicionar mais um informação de que o viajante possui uma obrigação militar no Brasil e não pdoe sair do país no momento.
+//Vamos adicionar mais um informação de que o viajante possui uma obrigação militar no Brasil e não pode sair do país no momento.
 let temObrigacaoMilitar = true
 podeViajar = idadeViajante >= 18 && (possuiVisto == true || cidadaniaEuropeia == true) && !temObrigacaoMilitar == false
 console.log("Pode viajar? " + podeViajar)
