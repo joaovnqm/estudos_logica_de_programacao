@@ -13,3 +13,11 @@ function pedido_restaurante(refeiçao, cliente = "Cliente", valor) {
 }
 
 pedido_restaurante("Sushi", "João", 45.00)
+
+//Usando função com retorno.
+function calcular_area_retangulo(base, altura) {
+    let area = base * altura
+    return area
+}
+
+console.log("Área do retângulo: " + calcular_area_retangulo(5, 10))
