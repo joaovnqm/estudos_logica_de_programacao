@@ -21,3 +21,11 @@ function calcular_area_retangulo(base, altura) {
 }
 
 console.log("Área do retângulo: " + calcular_area_retangulo(5, 10))
+
+//Ultilizando o split em uma função.
+function separar_nome(nome_completo) {
+    let primeiro_nome = nome_completo.split(" ")[0]
+    return primeiro_nome
+}
+
+console.log("Primeiro nome: " + separar_nome("Tom Cruise"))
